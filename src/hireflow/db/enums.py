@@ -13,3 +13,9 @@ class WorkplaceType(str, Enum):
     REMOTE = "remote"
     HYBRID = "hybrid"
     ONSITE = "onsite"
+
+class ATSProvider(str, Enum):
+    GREENHOUSE = "greenhouse"
+    LEVER = "lever"
+    ASHBY = "ashby"
+    

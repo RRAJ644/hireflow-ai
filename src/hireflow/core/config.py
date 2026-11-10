@@ -9,6 +9,11 @@ class Settings(BaseSettings):
     DATABASE_URL: str
     REDIS_URL: str
 
+    GREENHOUSE_API_BASE_URL: str 
+    LEVER_POSTINGS_API_BASE_URL: str
+    ASHBY_JOB_POSTING_API_BASE_URL: str 
+
+    
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",

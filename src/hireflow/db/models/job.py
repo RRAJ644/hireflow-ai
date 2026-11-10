@@ -28,9 +28,9 @@ class Job(Base, IDMixin, TimestampMixin):
 
     __table_args__ = (
         UniqueConstraint(
-            "job_board_id",
-            "external_id",
-            name="uq_job_board_external_id",
+        "job_board_id",
+        "external_id",
+        name="uq_job_board_external_id",
         ),
     )
 
